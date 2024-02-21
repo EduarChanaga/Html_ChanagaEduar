@@ -1,9 +1,36 @@
-table{
-   background-color: gray;
-}
 
 td{
    border-style:solid  
   
 }
 
+.uno{
+   text-align: center;
+}
+
+
+table.tabla {
+   
+   background: #c2c3c2;
+   border: 0px;
+   border-spacing: 0px;
+   padding: 0px;
+   margin: 10%;
+   width: 25%;
+ }
+ 
+ table.tabla tr {
+   border: 1px solid #363333;
+   /* PARA MARCAR LA SEPARACION LAS CELDAS DE LA TABLA  */
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ table.tabla td {
+   border: 2px solid #000;
+   /* PARA MARCAR LA SEPARACION LAS CELDAS DE LA TABLA  */
+   height: 100%;
+   padding: 0px;
+   margin: 0px;
+  
+ }
