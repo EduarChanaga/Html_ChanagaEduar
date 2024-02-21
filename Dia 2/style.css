@@ -1,4 +1,100 @@
-#subtitulo {
-    color: aqua;
-    text-align: center;
+/* Estilos para el título */
+h1, h2 {
+    color: #004C50; /* Color del texto */
+    text-align: center; /* Centrar el texto horizontalmente */
 }
+
+/* Estilos para la imagen */
+h1, h2 {
+    color: #004C50; /* Color del texto */
+    text-align: center; /* Centrar el texto horizontalmente */
+    font-family: 'Roboto', sans-serif; /* Utilizar la fuente Roboto */
+}
+
+/* Estilos para el contenedor */
+.container {
+    display: flex; /* Usar un layout de caja flexible */
+    justify-content: space-between; /* Distribuir uniformemente los elementos en el contenedor */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos para los elementos de la cuadrícula */
+.box {
+    flex: 1; /* Crecer para llenar el espacio disponible */
+    text-align: center; /* Centrar el texto horizontalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen externo para separación */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: #004C50; /* Color del texto */
+    font-family: 'Roboto', sans-serif; /* Utilizar la fuente Roboto */
+}
+
+/* Estilos para los elementos de la cuadrícula al pasar el ratón */
+.box:hover {
+    background-color: #00939C; /* Cambiar el color de fondo al pasar el ratón */
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+}
+
+/* Estilos para la imagen */
+.proyecto_de_vida {
+    width: 20%; /* Ajustar el ancho al contenedor padre */
+    max-width: 400px; /* Limitar el ancho máximo de la imagen */
+    display: block; /* Hacer que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centrar horizontalmente la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar una sombra */
+}
+
+
+
+
+
+
+
+
+
+
+
+                        /* Pagina 1  */
+.box2 {
+ /* Crecer para llenar el espacio disponible */
+    text-align: center; /* Centrar el texto horizontalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 1px; /* Espaciado interno */
+    margin: 1px; /* Margen externo para separación */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: #004C50; /* Color del texto */
+    font-family: 'Roboto', sans-serif; /* Utilizar la fuente Roboto */
+}
+
+.box2:hover {
+    background-color: #00939C; /* Cambiar el color de fondo al pasar el ratón */
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+}
+
+.contenedor {
+    display: flex;
+    height: auto; /* Cambiar la altura a 'auto' para que se expanda según el contenido */
+}
+
+.seccion {
+    flex: 1;
+    margin-right: 5px;
+    padding: 20px;
+    background-color: lightblue;
+    display: flex; /* Utilizar flexbox para alinear verticalmente */
+    flex-direction: column; /* Alinear elementos en columnas */
+}
+
+.seccion img {
+    max-width: 25%;
+    align-self: center; /* Asegurar que la imagen no exceda el ancho del contenedor */
+}
+  
+  .seccion:last-child {
+    margin-right: 0; /* Elimina el margen derecho de la última sección */
+  }
