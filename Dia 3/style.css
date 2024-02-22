@@ -35,21 +35,13 @@ table.tabla {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #d0e7fe;
+   background-color: #84f7ff;
    padding: 10px 20px;
 }
 
-.menu-left {
-   flex: 1;
-}
-
-.menu-right {
-   flex: 1;
-   text-align: right;
-}
 
 button{
-   background-color: cadetblue;
+   background-color: rgb(219, 219, 219);
    cursor:grab;
    border:10%;
    border-radius: 10%;
