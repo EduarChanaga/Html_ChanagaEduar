@@ -1,0 +1,49 @@
+.menu-center {
+   flex: 1;
+   text-align: center;
+   color: #4b4b4b;
+}
+
+.uno{
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(255, 126, 126);
+}
+.dos{
+   border-radius: 10px;
+   background-color: rgb(184, 184, 184);
+}
+
+table.tabla {
+   
+   background: #ffffff;
+  
+   width: 25%;
+ }
+ 
+ table.tabla tr {
+   border: 1px solid #363333;
+ }
+ 
+ table.tabla td {
+   border: 2px solid #000;
+  
+  
+ }
+
+ .menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #84f7ff;
+   padding: 10px 20px;
+}
+
+
+button{
+   background-color: rgb(219, 219, 219);
+   cursor:grab;
+   border:10%;
+   border-radius: 10%;
+   border-color: gray;
+}
