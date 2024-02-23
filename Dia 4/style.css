@@ -53,8 +53,9 @@ button[type="submit"]:hover {
 
 body {
     background: url(images/fondo.jpg); 
-    background-size: 1900px; 
+    background-size: 200%; 
     background-repeat: no-repeat;
     margin: 0;
     
   }
+
