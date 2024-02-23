@@ -1,30 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro - Mi web</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Eduar Damian Chanaga Gonzales">
+  <title>Formulario de registro - Mi web</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br><br><br><br>
-    <div class="container">
-        <form action="" method="post" class="box">
-          
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="user_name" />
-            
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_mail" />
-            
-            <label for="msg">Mensaje:</label>
-            <textarea id="msg" name="user_message"></textarea>
-            
-            <li class="button">
-                <button type="submit">Envíe su mensaje</button>
-            </li>
-          
-        </form>
-    </div>   
+
+  <h1>Formulario de registro - Mi web</h1>
+
+  <form action="" method="GET">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" maxlength="50" required>
+    </div>
+    <div>
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
+    </div>
+    <div>
+      <label for="sexo">Sexo:</label>
+      <input type="radio" id="hombre" name="sexo" value="hombre" required>
+      <label for="hombre">Hombre</label>
+      <input type="radio" id="mujer" name="sexo" value="mujer" required>
+      <label for="mujer">Mujer</label>
+    </div>
+    <div>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+    </div>
+    <div>
+      <input type="checkbox" id="info" name="info" checked>
+      <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+    </div>
+    <div>
+      <input type="checkbox" id="condiciones" name="condiciones" required>
+      <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    </div>
+    <div>
+      <label for="poblacion">Población:</label>
+      <select id="poblacion" name="poblacion">
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Giron">Giron</option>
+        <option value="Floridablanca">Floridablanca</option>
+        <option value="Piedecuesta">Piedecuesta</option>
+      </select>
+    </div>
+    <div>
+      <label for="descripcion">Descripción:</label><br>
+      <textarea id="descripcion" name="descripcion" ></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+
 </body>
 </html>
