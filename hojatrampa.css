@@ -1,0 +1,16 @@
+table{
+   
+    background: #ffffff;
+   
+    width: 25%;
+  }
+  
+  table tr {
+    border: 1px solid #363333;
+  }
+  
+  table td {
+    border: 2px solid #000;
+   
+   
+  }
