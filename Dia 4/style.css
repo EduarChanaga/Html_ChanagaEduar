@@ -1,6 +1,7 @@
 /* Titulo alineado al centro */
 h1 {
     text-align: center;
+    color: red;
 }
 
 form {
@@ -20,7 +21,7 @@ form div {
 
 label {
     font-weight: bold;
-    color: #f44336; 
+    color: #ff1100; 
 }
 
 input[type="text"],
@@ -39,12 +40,21 @@ select {
 button[type="submit"] {
     display: block;
     margin: auto;
-    background-color: #f44336;
+    background-color: #ff1100;
     color: #fff;
     padding: 15px 30px;
     border-radius: 30px; 
 }
 
 button[type="submit"]:hover {
-    background-color: #d32f2f; 
+    background-color: #770000; 
 }
+
+
+body {
+    background: url(images/fondo.jpg); 
+    background-size: 1900px; 
+    background-repeat: no-repeat;
+    margin: 0;
+    
+  }
