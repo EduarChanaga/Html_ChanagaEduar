@@ -145,12 +145,85 @@ div {
 
   .youll_find{
     position: relative;
-    margin-top: -40px;
-    margin-left: 380px;
-    width: 1160px;
-    height: 102px;
+    
+    width: 1700px;
+    height: 110px;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Amazon Ember';
 }
+
+
+.cuadro_tres{
+    background-color: #00A8E1;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px;
+    opacity: 1;
+    margin-top: 794px;
+    margin-left: 62.33px;
+}
+
+.Cancel{
+    position: relative;
+    margin-top: 56px;
+    margin-left: 496px;
+    color: white;
+    font-size: 60px;
+   
+    font-family: 'Amazon Ember big';
+    font-weight: bold; 
+  }
+
+.cancel_icon{
+    margin-left: 811.68px;
+}
+
+.if_you_dont{
+    position: relative;
+    width: 1700px;
+    height: 110px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Amazon Ember';
+}
+
+.parte_final{
+
+    width: 1920px;
+    height: 1079px;
+    margin-top: 1361px;
+    opacity: 1;
+}
+
+.compatible_devices{
+   
+    position: relative;
+    margin-top: 93px;
+    margin-left: 415.33px;
+    color: white;
+    font-size: 125px;
+    font-family: 'Amazon Ember';
+   
+}
+
+.theres_a_range{
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    
+    margin-left: 179.33px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Amazon Ember';
+    text-align: center;
+   
+}
+
+.plataformas{
+    width:1920px;
+    height:534px;
+}
+
