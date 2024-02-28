@@ -85,29 +85,55 @@ html{
 }
 
 .tarjeta{
-    margin-left: 127px;
+    margin-left: 359px;
+    width: 576px;
+    height: 324px;
 }
 
 
 .pie_pagina{
     position: relative;
-    margin-top: 70px;
+    margin-top: -20px;
     width: 1400px;
     height: 142px;
     background-color: rgb(255, 255, 255);
 }
 .tarjeta_metrolinea{
+    margin-top: -27px;
     position: relative;
     font-size: 40px;
     font-family:"opensans_semibold";
-    margin-left: 58px;
+    margin-left: 301px;
 }
-.cop{
+.saldo{
     position: relative;
     font-size: 27px;
     font-family:"opensans_semibold";
-    margin-left: 57px;
-    margin-top: -30px;
+    margin-left: 483px;
+    margin-top: -25px;
+
+}
+
+.saldo2{
+    position: relative;
+    font-size: 27px;
+    font-family:"opensans_semibold";
+    margin-left: 539px;
+
+}
+
+.saldo_escogido{
+    width: 288px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    font-family:"opensans_semibold";
+    font-size: 27px;
+    color: gray;  
+    margin-left: 495px;
+    line-height: 0.5;
 }
 
 .comprar{
@@ -144,8 +170,10 @@ html{
 
 .linea{
     position: absolute;
-    margin-left: 501.5px;
+    margin-left: 756.75px;
     margin-top: 59.5px;
+    width: 84px;
+    height: 2px;
 }
 
 .flecha_arriba{
@@ -155,31 +183,31 @@ html{
 
 
 
-.cantidad{
+.valor{
     font-family: "opensans_regular";
     margin-top: 95.29px;
-    margin-left:13px ;
+    margin-left:31px ;
     font-size: 20px;
     color: white;
 }
 
 .numero1{
     margin-top: 113px;
-    margin-left: 40px;
+    margin-left: 27px;
     color: #FFFFFF80;
     font-size: 20px;
     font-family:"opensans_regular";
 }
 .numero2{
     margin-top: 53px;
-    margin-left: 40px;
+    margin-left: 27px;
     color: #FFFFFF80;
     font-size: 20px;
     font-family:"opensans_regular";
 }
 .numero3{
     margin-top: 53px;
-    margin-left: 40px;
+    margin-left: 27px;
     color: #FFFFFF80;
     font-size: 20px;
     font-family:"opensans_regular";
