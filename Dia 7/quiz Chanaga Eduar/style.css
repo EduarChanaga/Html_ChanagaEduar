@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#cuadro1{
+    width: 1920px;
+    height: 800px;
+    background-color: #1e1d2b;
+
+    
+}
+        #foods{  
+            position: absolute;
+            color: #ff702a;
+            font-size: 40px;
+            margin-left: 100px;
+            margin-top: 25px;
+            
+        }
+
+        #home{
+            position:absolute;
+            margin-top: 50px;
+            margin-left: 1100px;
+            color: white;
+            font-size: 30px;
+            
+        }
+
+        #about{
+            position:absolute;
+            margin-top: 50px;
+            margin-left: 1250px;
+            color: white;
+            font-size: 30px;
+            
+        }
+
+        #menu{
+            position:absolute;
+            margin-top: 50px;
+            margin-left: 1400px;
+            color: white;
+            font-size: 30px;
+            
+        }
+
+        #service{
+            position:absolute;
+            margin-top: 50px;
+            margin-left: 1550px;
+            color: white;
+            font-size: 30px;
+            
+        }
+
+        #contact{
+            position:absolute;
+            margin-top: 50px;
+            margin-left: 1700px;
+            color: white;
+            font-size: 30px;
+            
+        }
+
+
+        #full_website{  
+            position: absolute;
+            color: #ff702a;
+            font-size: 100px;
+            margin-left: 200px;
+            margin-top: 300px;
+            
+        }
+    
+        #foods_the_most{  
+            position: absolute;
+            color: #ffffff;
+            font-size: 32px;
+            margin-left: 200px;
+            margin-top: 450px;
+            
+        }
+        #todays_menu{
+            position: absolute;
+            color: #ffffff;
+            font-size: 32px;
+            margin-left: 200px;
+            margin-top: 550px;
+            padding: 10px;
+            text-align: center;
+            background-color: #ff702a;
+        }
+
+        #home_img{
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 1000px;
+            width: 600px;
+        }
+
+
+
+
+
+         
+#cuadro2{
+    width: 1920px;
+    height: 800px;
+    background-color: #1e1d2b;
+
+ 
+}
+
+        #about_us{  
+            position: absolute;
+            color: #ff702a;
+            font-size: 32px;
+            margin-left: 950px;
+            margin-top: 300px;
+        }
+
+        #about_img{
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 200px;
+            width: 600px;
+        }
+
+        #we_speak{  
+            position: absolute;
+            color: #ffffff;
+            font-size: 50px;
+            margin-left: 950px;
+            margin-top: 350px;
+        }
+
+        #it_is_a_long{  
+            position: absolute;
+            color: #ffffff;
+            font-size: 20px;
+            margin-left: 950px;
+            margin-top: 490px;
+        }
+
+        #learn_more{
+            position: absolute;
+            color: #ffffff;
+            font-size: 16px;
+            margin-left: 950px;
+            margin-top: 590px;
+            padding: 10px;
+            text-align: center;
+            background-color: #ff702a;
+        }
+
+        #cuadro3 {
+            position: relative; /* Cambiado a relativo */
+            width: 1920px;
+            height: 800px;
+            background-color: #1e1d2b;
+        }
+        
+        #food_menu {
+            position: absolute;
+            color: #ff702a;
+            font-size: 20px; 
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 64px; /* Ajusta según sea necesario */
+        }
+        
+        #fresh_taste {
+            position: absolute;
+            color: #ffffff;
+            font-size: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 154px; /* Ajusta según sea necesario */
+        }
+        
+
+
+
+        #div_menu_1{
+         
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 250px;
+            width: 500px;
+            height: 500px;
+        }
+
+        #div_menu_2{
+            
+            position: absolute;
+            margin-left: 720px;
+            margin-top: 250px;
+            width: 500px;
+            height: 500px;
+        }
+
+        #div_menu_3 {
+            position: absolute;
+            margin-left: 1240px;
+            margin-top: 250px;
+            width: 500px;
+            height: 500px;
+        }
+        
+        #menu1 {
+            background-color: #ffefe8;
+            position: relative;
+            width: 450px;
+            height: 450px;
+            margin: auto;
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.7); 
+        }
+        
+
+            .foto_comida_menu {
+                position: absolute;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                width: 250px;
+            }
+
+            #title_menu {
+                position: absolute;
+                color: #000000;
+                margin-top: 340px;
+                font-size: 20px;
+                text-align: center;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #subtitle_menu {
+                position: absolute;
+                color: #000000;
+                margin-top: 375px;
+                font-size: 18px;
+                text-align: center;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #precio_menu {
+                position: absolute;
+                color: #ff702a;
+                margin-top: 400px; 
+                font-size: 18px;
+                text-align: center; 
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: bold;
+
+            }
+            
+#cuadro4 {
+    background-color: #1e1d2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Para centrar horizontalmente */
+    position: relative;
+    text-align: center;
+    width: 1920px;
+    height: 700px;
+
+}
+            
+            #text_container {
+                margin-bottom: 20px; /* Espacio entre los textos y los elementos */
+            }
+            
+            #food_services {
+                color: #ff702a;
+                font-size: 20px;
+            }
+            
+            #we_provide {
+                color: #ffffff;
+                font-size: 50px;
+            }
+            
+            #div_services_container {
+                display: flex;
+                justify-content: center; 
+                gap: 20px; 
+            }
+            
+            .div_services {
+                
+                width: 500px;
+                height: 500px;
+            }
+
+            #img_services{
+                width: 200px;
+            }
+
+            #services_text{
+                color: white;
+                font-size: 20px;
+            }
+
+
+#cuadro5 {
+    width: 1920px;
+    height: 800px;
+    background-color: #1e1d2b;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+            
+            .cuadro {
+                width: 1620px;
+                height: 500px;
+                background-color: #ffefe8;
+                margin: auto;
+                text-align: center;
+            }
+            
+            #we_make {
+                color: #000000;
+                font-size: 50px;
+                margin: auto; /* Centrado horizontal */
+            }
