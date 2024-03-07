@@ -40,7 +40,7 @@ body{
     height: 60%;
     width: 30%;
     margin-left: 70%;
-    margin-top: 10%;
+
 }
 
         #casita2{
@@ -157,9 +157,6 @@ body{
 
             100% {  opacity: 0;
             }
-
-        
-
             
         }
 
@@ -167,12 +164,47 @@ body{
             opacity: 0;
             animation: lluvia 12s linear;
             margin-left: 20%;
-            margin-top: 10%;
+            margin-top: -25%;
           
         }
 
         #lluvia2{
             width: 20%;
             height: 80%;
+            position: absolute;
+        }
+
+
+
+
+
+        @keyframes flor {
+            0% {  opacity: 0;
+            }
+
+            50% {  opacity: 0;
+            }
+
+            75% {  opacity: 0;
+            }
+
+            100% {  opacity: 1;
+            }
+            
+        }
+
+
+
+        .flores {
+           
+            animation: flor 20s linear;
+            margin-left: 20%;
+            margin-top: 35%
+          
+        }
+
+        #flores2{
+            width: 20%;
+            height: 30%;
             position: absolute;
         }
